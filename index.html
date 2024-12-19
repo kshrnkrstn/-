@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Квадрат Виженера</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Квадрат Виженера</h1>
+        <textarea id="inputText" placeholder="Введите текст"></textarea>
+        <input id="keyInput" placeholder="Введите ключ (или сгенерируйте)" />
+        <div>
+            <button onclick="encrypt()">Шифровать</button>
+            <button onclick="decrypt()">Дешифровать</button>
+            <button onclick="generateKey()">Генерация ключа</button>
+            <button onclick="crack()">Взломать</button>
+        </div>
+        <div class="result" id="resultText"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
